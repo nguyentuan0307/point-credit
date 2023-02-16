@@ -12,13 +12,13 @@
     <div id="grade-calc">
         <h2>Tính điểm tích lũy trung bình </h2>
         <label for="credit-a">Số lượng tín chỉ A:</label>
-        <input type="number" id="credit-a">
+        <input type="number" id="credit-a" value="0">
         <label for="credit-b">Số lượng tín chỉ B:</label>
-        <input type="number" id="credit-b">
+        <input type="number" id="credit-b" value="0">
         <label for="credit-c">Số lượng tín chỉ C:</label>
-        <input type="number" id="credit-c">
+        <input type="number" id="credit-c" value="0">
         <label for="credit-d">Số lượng tín chỉ D:</label>
-        <input type="number" id="credit-d">
+        <input type="number" id="credit-d" value="0">
         <button onclick="calculateCGPA()">Tính điểm trung bình</button>
         <label id="gpa-result"></label>
         <p id="cgpa"></p>
@@ -26,9 +26,9 @@
     <div id="grade-est">
         <h2>Số lượng tín chỉ A và B cần để đạt GPA</h2>
         <label for="grade-goal">GPA cần đạt:</label>
-        <input type="number" step="0.01" id="grade-goal">
+        <input type="number" step="0.01" id="grade-goal" value="0">
         <label for="credit-x-a">Số lượng tín chỉ:</label>
-        <input type="number" id="credit-x">
+        <input type="number" id="credit-x" value="0">
         <button onclick="calculateRemainingCredits()">Tìm </button>
         <label id="gpa-remain-result"></label>
         <p id="grade-est-result"></p>
